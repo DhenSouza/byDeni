@@ -14,6 +14,7 @@
     align-items: center;
 }
 
+
 #menu li {
     display: inline;
     padding: 15px;
@@ -33,6 +34,35 @@
     padding: 30px;
 }
 
+#hobbies li {
+    display: table;
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.bgh-red {
+    background: #CD5C5C;
+}
+
+.containerhobbies  {
+    margin: auto;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.containerhobbies ul {
+    list-style-type: none;
+}
+.container ul li {
+    margin-top: 7px;
+    padding-bottom: 3px;
+    border-style: solid;
+}    
+
+.mg-top {
+    margin-top: 7px
+}
 /* Modificação nas imagens em Index.html*/
 .br-50 {
     border-radius: 50%;
@@ -47,10 +77,5 @@
     width: 60px;
     height: 60px;
 }
-
-
-
-
-
 
 /* Modificações no estilo da página CONTATO.HTML*/
