@@ -33,7 +33,7 @@
     padding: 30px;
 }
 
-/* Modificação nas imagens */
+/* Modificação nas imagens em Index.html*/
 .br-50 {
     border-radius: 50%;
 }
@@ -41,6 +41,11 @@
 .wr-200 {
     width: 200px;
     height: 200px;
+}
+
+.tm-social {
+    width: 60px;
+    height: 60px;
 }
 
 
