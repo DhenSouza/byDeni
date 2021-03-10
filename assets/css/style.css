@@ -35,6 +35,10 @@
     padding: 30px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 #hobbies li {
     display: table;
     padding: 10px;
@@ -78,3 +82,7 @@
 }
 
 /* Modificações no estilo da página CONTATO.HTML*/
+
+.ml-50 {
+    margin-left: 50px;
+}
