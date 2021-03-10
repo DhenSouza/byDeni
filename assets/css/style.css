@@ -46,23 +46,21 @@
 }
 
 .containerhobbies  {
-    margin: auto;
     max-width: 450px;
     display: flex;
-    justify-content: space-between;
+    flex-flow: row;
+    justify-content: left;
 }
-.containerhobbies ul {
-    list-style-type: none;
-}
+
 .container ul li {
     margin-top: 7px;
     padding-bottom: 3px;
     border-style: solid;
+    text-align: left;
+    
 }    
 
-.mg-top {
-    margin-top: 7px
-}
+
 /* Modificação nas imagens em Index.html*/
 .br-50 {
     border-radius: 50%;
