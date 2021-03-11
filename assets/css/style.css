@@ -35,36 +35,36 @@
     padding: 30px;
 }
 
-.mb-50 {
-    margin-bottom: 50px;
+.mb-100 {
+    margin-bottom: 100px;
 }
 
-#hobbies li {
-    display: table;
-    padding: 10px;
-    font-size: 15px;
-    font-style: italic;
-}
+
 
 .bgh-red {
     background: #CD5C5C;
 }
 
-.containerhobbies  {
-    max-width: 450px;
+.flex-container {
     display: flex;
-    flex-flow: row;
-    justify-content: left;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+    
+    }
+
+.containerFoot {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content:space-between;
+    align-items: center;
 }
 
-.container ul li {
-    margin-top: 7px;
-    padding-bottom: 3px;
-    border-style: solid;
-    text-align: left;
-    
-}    
-
+.al-bottom {
+    padding-bottom: 5px;
+}
 
 /* Modificação nas imagens em Index.html*/
 .br-50 {
