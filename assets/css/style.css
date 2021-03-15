@@ -1,13 +1,11 @@
 /* Modificações no estilo da página INDEX.HTML*/
-@include media-breakpoint-up(md) {
-    html {
-      font-size: 1.4rem;
+html { 
+      scroll-behavior: smooth
     }
-  }
+  
 
 body {
     background-color: #58536D;
-    scroll-behavior: smooth;
 }
 
 .tamanho {
@@ -42,4 +40,8 @@ body {
   .jubo-colors {
     background-color: #343A40;
     color: white;
+  }
+
+  .opacidade {
+    opacity: 0.5;
   }
