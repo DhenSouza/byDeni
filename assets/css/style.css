@@ -7,13 +7,12 @@
 
 body {
     background-color: #58536D;
+    scroll-behavior: smooth;
 }
 
 .tamanho {
     width: 100%;
 }
-
-
 
 .tm-social {
     width: 50px;
@@ -38,5 +37,10 @@ body {
 
 @keyframes mymove {
     50% {border: 15px solid transparent;}
+  }
+
+  .jubo-colors {
+    background-color: #343A40;
+    color: white;
   }
 
