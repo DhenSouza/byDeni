@@ -6,6 +6,8 @@ let emailModalOk = false
 let assuntoModalOk = false
 let mapa = document.querySelector("#mapa")
 
+let meuModal = document.querySelector("#meuModal")
+
 nomeModal.style.width = "100%"
 emailModal.style.width = "100%"
 
@@ -64,4 +66,10 @@ function mapaZoom() {
 function mapaNormal() {
     mapa.style.width = "400px"
     mapa.style.height = "250px"
+}
+
+function model(){
+    keyboard = 'true';
+    backdrop = 'static';
+
 }
