@@ -53,8 +53,9 @@
       </nav>
 <!-- /NavBar -->
     
-<!-- JumboTron Inicial -->
+
 <div class="container">
+  <!-- JumboTron Inicial -->
     <div class="row">
         <div class="col-md-12">
             <div class="jumbotron">
@@ -226,6 +227,43 @@
     </div>
     <!--/Video-->
 
+    <!--Contate-me-->
+    <div class="jumbotron">
+      <h1 class="display-4">Contate-me</h1>
+      <p class="lead">Este é o meio de tirar duvidas e me contatar mais facilmente.</p>
+      <hr class="my-4">
+      <p>Clique aqui para me contatar: </p>
+      <a class="btn btn-primary btn-lg" href="#modal1" role="button" data-toggle="modal" data-target=".bd-example-modal-lg">Contate-me</a>
+    </div>
+
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Informe seu Nome Completo</label>
+          <input type="text" class="form-control" id="nomeModal" placeholder="Nome" onkeyup="validanomeModal()">
+          <div id="txtnomeModal"></div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Informe seu endereço de E-mail</label>
+          <input type="email" class="form-control" id="emailModal" placeholder="nome@exemplo.com" onkeyup="validaemailModal()">
+          <div id="txtemailModal"></div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Informe sua menssagem aqui !</label>
+          <textarea class="form-control" id="assuntoModal" rows="5" onkeyup="validaassuntoModal()"></textarea>
+          <div id="txtassuntoModal"></div>
+          <button type="submit" class="btn btn-primary"  onclick="enviar()">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+    <!--/Contate-me-->
+
   <!-- Footer -->
   <hr>
   <footer>
@@ -253,5 +291,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
