@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     
-
     <!--icones-->
     <script src="https://kit.fontawesome.com/d7f7bedd57.js" crossorigin="anonymous"></script>
 
@@ -18,8 +17,8 @@
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <i class="navbar-brand fas fa-user-ninja fa-2x" href="#menu"></i>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <i class="navbar-brand fas fa-user-ninja fa-2x" href="" ></i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,7 +26,7 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#menu">Home <span class="sr-only">(página atual)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -36,12 +35,12 @@
                   Categorias
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#opcao1">Games</a>
-                  <a class="dropdown-item" href="#opcao2">Livros</a>
-                  <a class="dropdown-item" href="#opcao3">Series</a>
-                  <a class="dropdown-item" href="#opcao4">Animes</a>
+                  <a class="dropdown-item badge badge-info" href="#opcao1">Games</a>
+                  <a class="dropdown-item badge badge-info" href="#opcao2">Livros</a>
+                  <a class="dropdown-item badge badge-info" href="#opcao3">Series</a>
+                  <a class="dropdown-item badge badge-info" href="#opcao4">Filmes</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#opcao5">Contate-me</a>
+                  <a class="dropdown-item badge badge-danger" href="#opcao5">Contate-me</a>
                 </div>
               </li>
           </ul>
@@ -60,7 +59,7 @@
         <div class="col-md-12">
             <div class="jumbotron">
                 <h1 class="display-4">Bem vindo aos meus dominios ! </h1>
-                <p class="lead">Este é um site é indicar livros, filmes e series e talvez uns games e quem sabe animes (Não respeito OTAKOS ! brinks eu assisto também, as vezes) </p>
+                <p class="lead">Este é um site é indicar livros, filmes e series e talvez uns games e quem sabe animes</p>
               </div>
         </div>
     </div>
@@ -70,7 +69,7 @@
     <div class="row">
         <div class="col-md-12 ">
             <div class="d-flex justify-content-center mt-2 mb-2"> 
-                <h1 id="#opcao1" style = "font-family:'Times New Roman', Times, serif">Sobre Games</h2>
+                <h1 id="opcao1" class="costum-titulos" >Sobre Games</h2>
             </div>
         </div>
     </div>
@@ -111,7 +110,7 @@
  <div class="row">
         <div class="col-md-12 ">
             <div class="d-flex justify-content-center mt-5 mb-2"> 
-              <h1 id="#opcao2" style = "font-family:'Times New Roman', Times, serif">Sobre Livros</h2>
+              <h1 id="opcao2" class="costum-titulos">Sobre Livros</h2>
             </div>
         </div>
     </div>
@@ -153,7 +152,7 @@
   <div class="row">
         <div class="col-md-12 ">
             <div class="d-flex justify-content-center mt-5 mb-2"> 
-              <h1 id="#opcao2" style = "font-family:'Times New Roman', Times, serif">Sobre Series</h2>
+              <h1 id="opcao3" class="costum-titulos">Sobre Series</h2>
             </div>
         </div>
   </div>
@@ -191,51 +190,38 @@
       <span class="sr-only">Próximo</span>
     </a>
   </div>
-
   <!--/Carousel -->
-
-  <!--Tooltip-->
-  <div class="d-flex justify-content-center mt-5 mb-5">
-    <button type="button" class="btn btn-secondary mr-3" data-toggle="tooltip" data-placement="top" title="Tooltip na parte superior">
-      <a href="#menu">menu</a>
-    </button>
-    <button type="button" class="btn btn-secondary mr-3" data-toggle="tooltip" data-placement="right" title="Tooltip na direita">
-      <a href="#opcao1">Games</a>
-    </button>
-    <button type="button" class="btn btn-secondary mr-3" data-toggle="tooltip" data-placement="bottom" title="Tooltip na parte inferior">
-      <a href="#opcao2">Livros</a>
-    </button>
-  </div>
-    <!--!Tooltip-->
 
     <!--Video-->
     <div class="row">
       <div class="col-md-12 ">
           <div class="d-flex justify-content-center mt-5 mb-2"> 
-            <h1 id="#opcao2" style = "font-family:'Times New Roman', Times, serif">Recomendação de Filmes: Com Trailler</h2>
+            <h1 id="opcao4" class="costum-titulos">Recomendação de Filmes Semanais</h2>
           </div>
       </div>
     </div>
 
-    <div class="d-flex justify-content-center mt-3">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZrdQSAX2kyw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div class="media">
+      <iframe class="align-self-center mr-3" width="560" height="315" src="https://www.youtube.com/embed/ZrdQSAX2kyw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="media-body">
+        <h5 class="mt-5 costum-titulos">Consigo nem comentar chega a arrepiar</h5>
+        <p class="lead">Um filme que todos si decepcionaram, uma lenda morta, um delirio coletivo, mas a chama da esperança revive, com o S no peito ? Não, com o Snyder Cut, PQP agr VAIIII !!</p>
+        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta expedita vitae neque hic voluptatem. Quisquam eum quas architecto enim? Perspiciatis laudantium excepturi blanditiis est dignissimos praesentium ipsa ea rerum?</p>
+      </div>
     </div>
-    <h3 class="d-flex justify-content-center mt-5">Consigo nem comentar chega a arrepiar</h3>
-    <div class="d-flex justify-content-center mt-5">
-      <p>Um filme que todos si decepcionaram, uma lenda morta, um delirio coletivo, mas a chama da esperança revive, com o S no peito ? Não, com o Snyder Cut, PQP agr VAIIII !!</p>
-    </div>
+   
     <!--/Video-->
 
     <!--Contate-me-->
-    <div class="jumbotron">
-      <h1 class="display-4">Contate-me</h1>
+    <div class="jumbotron mt-5">
+      <h1 id="opcao5" class="display-4">Contate-me</h1>
       <p class="lead">Este é o meio de tirar duvidas e me contatar mais facilmente.</p>
       <hr class="my-4">
       <p>Clique aqui para me contatar: </p>
       <a class="btn btn-primary btn-lg" href="#modal1" role="button" data-toggle="modal" data-target=".bd-example-modal-lg">Contate-me</a>
     </div>
-
-
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -260,7 +246,6 @@
     </div>
   </div>
 </div>
-
     <!--/Contate-me-->
 
   <!-- Footer -->
@@ -270,16 +255,23 @@
       <div class="row mb-3 ">
           <div class="col-md-12 d-flex justify-content-center">
           <div>
-
-              <a  href="https://www.instagram.com.br/" target="_blanck" class="p-3">
+              <a  href="https://www.instagram.com/dhenilson.souza/" target="_blanck" class="p-3">
                   <img class = "tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
               </a>
-              <a href="https://www.linkedin.com.br/" target="_blanck" class="p-3">
+              <a href="https://www.linkedin.com/in/denilson-t-de-souza/" target="_blanck" class="p-3">
                   <img class = "tm-social" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
               </a> 
           </div> 
           </div>
-      </div>      
+      </div>  
+      
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          
+            <p>Direitos Reservados para: Denilson Souza &copy</p>
+          
+        </div>
+      </div>
   </footer>
   <!-- /Footer -->
 </div>

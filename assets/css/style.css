@@ -1,4 +1,10 @@
 /* Modificações no estilo da página INDEX.HTML*/
+@include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+
 body {
     background-color: #58536D;
 }
@@ -13,4 +19,24 @@ body {
     width: 50px;
     height: 50px;
 }
+
+.costum-titulos {
+    font-family:  'Stencil Std', fantasy; 
+    text-decoration: underline;
+
+}
+
+.costum-texto {
+    background-color: #5A5E91;
+}
+
+.animação-border {
+ 
+  border: 1px solid black;
+  animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+    50% {border: 15px solid transparent;}
+  }
 
