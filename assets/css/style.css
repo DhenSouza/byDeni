@@ -1,13 +1,13 @@
 /* Modificações no estilo da página INDEX.HTML*/
-
+body {
+    background-color: #58536D;
+}
 
 .tamanho {
     width: 100%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 .tm-social {
     width: 50px;
