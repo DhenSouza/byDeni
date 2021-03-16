@@ -75,8 +75,20 @@
                 <h1 id="opcao1" class="costum-titulos" >Sobre Games</h2>
             </div>
         </div>
+
+        <div class="media">
+          <div id="twitch-embed" class="tamanho-stream mb-3">
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+          </div>
+          <div class="media-body">
+            <h5 class="mt-0 ml-3">Uma super recomendação !!!</h5>
+            <p class="ml-3"> Aqui podemos ver uma excelente fonte de entretenimento, um otimo Streamer com conteudos muito bons, super recomendado </p>
+            <p class="mb-0 ml-3">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+        </div>
+
     </div>
-    <div class="row">
+    <div class="row mt-3">
         <div class="col-md-12 ">
             <div> 
                 <div class="card-group">
@@ -288,5 +300,13 @@
     <!--teste de script-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
+    <!--video twicth-->
+    <script type="text/javascript">
+      new Twitch.Player("twitch-embed", {
+        channel: "gahplay",
+        width: "400px",
+        height: "300px"
+      });
+    </script>
   </body>
 </html>

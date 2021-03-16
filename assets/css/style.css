@@ -45,3 +45,8 @@ body {
   .opacidade {
     opacity: 0.5;
   }
+
+  .tamanho-stream {
+    height: 300px;
+    width: 400px;
+  }
